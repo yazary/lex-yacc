@@ -1,4 +1,6 @@
 %{
+	// Simple lex and yacc program - From Lex And Yacc tutorial
+	// By Tom Niemann
 	#include <stdio.h>
 	int yylex(void);
 	void yyerror(char *);

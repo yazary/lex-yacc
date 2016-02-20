@@ -1,4 +1,6 @@
 %{
+	// Simple calculator program - From Lex And Yacc tutorial
+	// By Tom Niemann
 	#include <stdio.h>
 	int yylex(void);
 	void yyerror(char *);
@@ -28,7 +30,7 @@ expr:
 	| expr '*' expr		{$$ = $1 * $3;}
 	| expr '/' expr		{$$ = $1 / $3;}
 	| expr '%' expr		{$$ = $1 % $3;}
-	| '(' expr ')'		{$$ = $2; } 
+	| '(' expr ')'		{$$ = $2; }
 	;
 
 %%

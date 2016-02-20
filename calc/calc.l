@@ -1,4 +1,7 @@
 %{
+// Simple calculator program - From Lex And Yacc tutorial
+// By Tom Niemann
+
 #include <stdlib.h>
 void yerror(char *);
 #include "y.tab.h"
