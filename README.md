@@ -4,6 +4,6 @@
 
 ## Usage
 
-yacc -d yac_file.y
-lex lex_file.l
-gcc lex.yy.c y.tab.c -o output_file
+* yacc -d yac_file.y
+* lex lex_file.l
+* gcc lex.yy.c y.tab.c -o output_file
